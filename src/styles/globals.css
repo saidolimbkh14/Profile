@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: unset;
+}
+
+.aref {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.hobby {
+  padding: 50px 100px;
+  background: url(https://images.pexels.com/photos/1529881/pexels-photo-1529881.jpeg?cs=srgb&dl=pexels-d%C6%B0%C6%A1ng-nh%C3%A2n-1529881.jpg&fm=jpg);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.nav_right p:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 1s;
+}
+
+.nav_bottom button:hover {
+  color: darkolivegreen;
+  transition: 1s;
+  background-color: rgb(26, 26, 26);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.hobby_top h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.hobby_top {
+  padding: 100px;
+}
+
+.hobby_top h3 {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 40px;
+  padding: 50px 0;
+}
+
+.nav_parent {
+  padding: 10px 100px;
+  background: url(https://images.pexels.com/photos/1529881/pexels-photo-1529881.jpeg?cs=srgb&dl=pexels-d%C6%B0%C6%A1ng-nh%C3%A2n-1529881.jpg&fm=jpg);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px;
+}
+
+
+.nav_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nav_right p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.nav_left h1 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.nav_bottom {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 200px 100px;
+
+
+}
+
+.nav_bottom h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.nav_bottom p {
+  line-height: 35px;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 50px 0;
+}
+
+.nav_bottom button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  font-size: 17px;
+}
+
+.nav_p1 {
+  color: black;
+}
+
+.nav_p1:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+.cards img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.hobbi_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 100px;
+}
+
+
+
+.cards p {
+  line-height: 25px;
+  padding: 10px 0;
+}
+
+.cards button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cards button:hover {
+  background-color: black;
+  color: white;
+  transition: all 1s;
+}
+
+.hobby_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.h_nav_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.h_nav_right p:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 1s;
+}
+
+.about_p {
+  padding: 50px 50px;
+  background-color: black;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 90px;
+}
+
+.about_right img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+
+.about_top h1 {
+  font-weight: 200;
+  text-align: start;
+  font-size: 55px;
+  color: white;
+  font-weight: 200;
+}
+
+.about_bottom h3 {
+  color: white;
+  text-align: start;
+  padding: 60px 0;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.hobbi_cards {
+  background: url(https://wallpapers.com/images/hd/dark-forest-pathway-light-ew8bmaryqdn3x4at.jpg);
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150vh;
+  color: rgb(219, 218, 218);
+}
+
+.cards {
+  padding: 5px;
+  width: 100%;
+}
+
+.cards h1 {
+  font-weight: 200;
+}
+
+.cards:hover {
+  background-color: rgba(0, 0, 0, 0.187);
+  transition: all 1s;
+}
+
+.cards button {
+  background-color: grey;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.card_parent2 {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 100px 50px;
+}
+
+.card {
+  width: 100%;
+  background-color: rgba(34, 34, 34, 0.602);
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  color: rgb(203, 203, 203);
+}
+
+.card h1 {
+  font-size: 35px;
+  font-weight: 100;
+  padding: 7px;
+}
+
+.card_parent2 a {
+  color: aliceblue;
+}
+
+.skill_parent {
+  background-color: black;
+  padding: 40px 50px;
+}
+
+
+
+.skill_parent {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.skill_top h1 {
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.skill_card_top h3 {
+  color: white;
+}
+
+.skill_card_bottom_right p {
+  color: white;
+  font-size: 15px;
+}
+
+.skill_card_bottom {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}
+
+
+
+.skill_card_bottom_l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.skill_card_bottom_l button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+}
+
+.skill_card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.skill_bottom{
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+
+.bbb{
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1255px) {
+  .hobbi_cards {
+    padding: 20px 50px;
+  }
+}
+
+@media all and (max-width:1155px) {
+  nav {
+    padding: 25px 0;
+  }
+
+  .nav_bottom {
+    padding: 140px 0;
+  }
+
+  .about_p {
+    flex-direction: column-reverse;
+  }
+
+  .about_bottom {
+    text-align: center;
+  }
+
+  .about_bottom h3 {
+    padding: 40px 0;
+  }
+
+
+
+  .hobby {
+    padding: 40px 30px;
+    height: 95vh;
+  }
+
+
+  @media all and (max-width:1110px) {
+    .hobbi_cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .cards {
+    padding: 10px;
+  }
+
+  .hobbi_cards {
+    height: 170vh;
+  }
+
+
+
+
+
+}
+
+@media all and (max-width:1380px) {
+  .about_bottom h3 {
+    padding: 9px 0;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 100;
+  }
+
+  .about_top h1 {
+    font-size: 40px;
+  }
+
+}
+
+@media all and (max-width:1250px) {
+  .about_bottom h3 {
+    padding: 9px 0;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 100;
+  }
+
+  .about_top h1 {
+    font-size: 37px;
+  }
+
+  .about_right img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .about_p {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+
+
+@media all and (max-width:930px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .nav_right p {
+    border-bottom: 1px solid grey;
+    padding: 5px 0;
+  }
+
+  .nav_bottom {
+    text-align: center;
+    display: block;
+    padding: 100px 0;
+  }
+
+  .about_right img {
+    padding-top: 70px;
+  }
+
+  .about_p {
+    gap: 0;
+    padding: 10px 10px;
+  }
+
+  .hobby_nav {
+    padding: 0 50px;
+  }
+
+  .hobby_top {
+
+    padding: 100px 50px;
+  }
+
+  .hobbi_cards {
+    padding: 10px 10px;
+  }
+
+  .cards img {
+    width: 100%;
+    height: 270px;
+  }
+}
+
+@media all and (max-width:777px) {
+  .hobby_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  .h_nav_right {
+    display: flex;
+    gap: 100px;
+  }
+
+  .h_nav_right p {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.76);
+    padding: 8px 0;
+  }
+
+  .hobby_top h1 {
+    font-size: 40px;
+  }
+
+  .hobby_top h3 {
+    font-size: 26px;
+  }
+
+  .cards p {
+    padding: 5px 0;
+  }
+}
+
+@media all and (max-width:680px) {
+  .hobbi_cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cards {
+    text-align: center;
+  }
+
+  .cards h1 {
+    padding-top: 5px;
+  }
+
+  .hobbi_cards {
+    padding: 10px 5px;
+    height: 320vh;
+  }
+
+  .hobby_top h3 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .hobby_top h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .hobby_top {
+    padding: 100px 20px;
+  }
+
+}
+
+@media all and (max-width:650px) {
+  .nav_parent {
+    padding: 20px 10px;
+  }
+
+  .nav_bottom h1 {
+    font-size: 40px;
+  }
+
+  .nav_bottom p {
+    font-size: 23px;
+  }
+
+  .hobby {
+    padding: 20px 10px;
+  }
+
+  .card_parent2 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 50px 20px;
+  }
+
+}
+
+@media all and (max-width:550px) {
+  .about_bottom h3 {
+    padding: 9px 0;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 100;
+  }
+
+  .about_top h1 {
+    font-size: 38px;
+  }
+
+  .hobby {
+    height: 90vh;
+  }
+}
+
+@media all and (max-width:480px) {
+  .about_bottom h3 {
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 100;
+  }
+
+  .nav_right {
+    display: flex;
+    gap: 15px;
+  }
+
+  .cards img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .hobbi_cards {
+    display: grid;
+    gap: 0;
+  }
+
+  .hobby_nav {
+    padding: 10px 0;
+  }
+
+  .hobby_nav h1 {
+    font-size: 27px;
+  }
+
+  .hobby_top h3 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .hobby_top {
+    padding: 70px 10px;
+  }
+}
+
+@media all and (max-width:460px) {
+  .hobby_top h1 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+}
+
+@media all and (max-width:450px) {
+  .hobby_top h3 {
+    font-size: 19px;
+    padding: 9px 0;
+  }
+
+  .hobby {
+    height: 80vh;
+  }
+
+  .hobby_top h3 {
+    color: rgb(223, 223, 223);
+  }
+
+  .hobby_top h1 {
+    color: rgb(206, 206, 206);
+  }
+}
+
+@media all and (max-width:390px) {}
+
+@media all and (max-width:350px) {
+  .about_bottom h3 {
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 100;
+  }
+
+  .about_top h1 {
+    font-size: 34px;
+  }
+
+  .cards img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .hobbi_cards {
+    display: grid;
+    gap: 0;
+  }
+}
